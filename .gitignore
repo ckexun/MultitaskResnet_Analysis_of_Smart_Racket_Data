@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Logs and debugging
+*.log
+
+# PyTorch/TensorBoard files
+runs/
+checkpoints/
+*.pth
+
+# Data files
+# *.csv
+# *.tsv
+# *.xlsx
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VSCode/IDE files
+.vscode/
+.idea/
