@@ -46,14 +46,8 @@ The main packages include:
 - TensorBoard
 - tqdm...  
 
-
 - Python = 3.10.16
-- PyTorch
-- NumPy
-- pandas
-- scikit-learn
-- tqdm
-- tensorboard
+
 
 You can create a `requirements.txt` using:
 
@@ -61,7 +55,14 @@ You can create a `requirements.txt` using:
 pip freeze > requirements.txt
 ```
 
-## Model Outputs
+## Dataset
+
+> ⚠️ **Note**: The dataset files (`39_Training_Dataset` and `39_Test_Dataset`) are too large to be stored in this repository.
+>
+> Please download them manually from the official competition page:  
+> 👉 https://tbrain.trendmicro.com.tw/Competitions/Details/39 -> Download Dataset -> Download 39_Training_Dataset and 39_Test_Dataset
+
+## Model Overview
 
 The model predicts:
 - Gender (binary)
@@ -69,8 +70,9 @@ The model predicts:
 - Years of experience (3-class)
 - Level (4-class)
 
-
 Losses include **Focal Loss** (for binary tasks) and **Label Smoothing CrossEntropy** (for multi-class).
+
+
 
 ## Experiments
 
