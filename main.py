@@ -393,7 +393,7 @@ def set_seed(seed=42):
     torch.backends.cudnn.benchmark = False
 
 if __name__ == "__main__":
-    set_seed(42)
+    # set_seed(42)
     
     print("Loading training data...")
     train_info_df = pd.read_csv(TRAIN_INFO_PATH)

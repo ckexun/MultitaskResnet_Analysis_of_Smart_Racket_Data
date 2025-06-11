@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ### Train the Model
 
 ```bash
-python best_model.py
+python main.py
 ```
 
 ### Visualize Training (TensorBoard)
@@ -83,7 +83,7 @@ Check the `experiments/` folder for traditional ML model implementations (e.g., 
 
 ```
 MultitaskResnet_Analysis_of_Smart_Racket_Data/
-├── best_model.py              # Main model and training/inference pipeline
+├── main.py              # Main model and training/inference pipeline
 ├── dataset/                   # Contains training and test datasets
 │   ├── 39_Training_Dataset/
 │   ├── 39_Test_Dataset/
