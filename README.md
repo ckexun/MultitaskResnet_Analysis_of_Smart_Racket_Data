@@ -1,5 +1,5 @@
 # MultitaskResNet: Smart Racket Data Analysis
->Update time: 2025-06-11
+>Update time: 2025-06-12
 
 This project implements **MultitaskResNet**, a deep learning model based on multi-task learning to analyze swing motion data collected from smart rackets. It was developed for the **Contest** and achieved excellent results on both the public and private leaderboards.
 
@@ -14,11 +14,15 @@ You can install dependencies in two ways:
 
 #### Option 1: Using pip (venv)
 
+This project does not specify a particular CUDA version in `requirements.txt`. Please install PyTorch manually according to your hardware environment.
+
 ```bash
 pip install -r requirements.txt
 ```
+📌 After installing the basic dependencies, please install PyTorch manually from https://pytorch.org/ to match your system's CUDA or CPU configuration.
 
-#### Option 2: Using conda
+
+#### Option 2: Using conda 
 
 ```bash
 conda env create -f environment.yml

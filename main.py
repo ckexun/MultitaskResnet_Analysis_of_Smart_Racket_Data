@@ -400,7 +400,7 @@ if __name__ == "__main__":
     """
     unique_id：選手揮拍測驗的id(對應train_data檔名)
     player_id：選手id
-    mode：揮拍模式(參照「AI CUP 2025桌球智慧球拍資料的精準分析-程式介紹.ppt」第六頁說明)
+    mode：揮拍模式(參照「程式介紹.ppt」第六頁說明)
     gender : 1:男,2:女
     hold racket handed : 1:右 2:左
     play years : 共3個球齡層(根據所有選手的球齡分布，分為 0:低、1:中、2:高)
