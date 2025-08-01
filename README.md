@@ -1,5 +1,5 @@
 # MultitaskResNet: Smart Racket Data Analysis
->Update time: 2025-06-12
+>Update time: 2025-08-02
 
 This project implements **MultitaskResNet**, a deep learning model based on multi-task learning to analyze swing motion data collected from smart rackets. It was developed for the **Contest** and achieved excellent results on both the public and private leaderboards.
 
