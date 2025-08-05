@@ -1,7 +1,7 @@
-# MultitaskResNet: Smart Racket Data Analysis
->Update time: 2025-08-02
+# TTNet: Multi-Task Deep Learning for Table Tennis Player Analysis with Smart Racket
+>Update time: 2025-08-05
 
-This project implements **MultitaskResNet**, a deep learning model based on multi-task learning to analyze swing motion data collected from smart rackets. It was developed for the **Contest** and achieved excellent results on both the public and private leaderboards.
+This project implements **TTNet**, a deep learning model based on multi-task learning to analyze swing motion data collected from smart rackets. It was developed for the **Contest** and achieved excellent results on both the public and private leaderboards.
 
 ---
 
@@ -57,7 +57,7 @@ Install via pip or conda (see Setup section).
 ## Project Structure
 
 ```
-MultitaskResnet_Analysis_of_Smart_Racket_Data/
+TTNet/
 ├── main.py                    # Main model and training/inference pipeline
 ├── dataset/                   # Contains training and test datasets
 │   ├── 39_Training_Dataset/
